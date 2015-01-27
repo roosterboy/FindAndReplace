@@ -7,10 +7,11 @@ What
 --------------
 Provides a find and replace UI for Pythonista that is loosely based on the interface in BBEdit.
 
-Offers:
-
+Offers
+--------------
 - Regular expressions
 - Search backwards and forwards
 - Search only in selection
+- Case sensitivity
 - Replace all
 - History of previous searches
