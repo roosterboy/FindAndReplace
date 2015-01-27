@@ -100,6 +100,7 @@ class FindObject(object):
             self.present_repeat_view()
             
     def present_repeat_view(self):
+        """shows an abbreviated forward/backward UI for cycling through results"""
         repeat_view = ui.View()
         repeat_view.name = 'FindNextPrev'
         repeat_view.background_color = 'white'
@@ -123,6 +124,7 @@ class FindObject(object):
         repeat_view.present('popover', hide_title_bar=True)
     
     def close_repeat_view(self, sender):
+        """tells repeat view to close itself"""
         sender.superview.close()
 
     def repeat_find_action(self, sender):
