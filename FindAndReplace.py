@@ -1,7 +1,8 @@
 # coding: utf-8
 
 # ISSUES
-# - editor doesn't scroll when selection changes?
+# - editor doesn't scroll when selection changes
+# - repeat view too tall, even hiding title bar
 
 from collections import deque
 import plistlib
